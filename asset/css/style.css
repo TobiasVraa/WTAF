@@ -1,8 +1,40 @@
 :root {
-    --accentColor: ;
-    --lightText: ;
+    /* farver */
+    --primaryColor: #ff7f50;
+    --secondaryColor:#0c398b;
+    --tritiaryColor:#efe9e7;
+    --grey900:#051635;
+    --grey800:#0f2349;
+    --grey700:#30456c;
+    --grey600:#4e638a;
+    --grey500:#6b7fa4;
+    --grey400:#95a6c6;
+    --grey300:#c1cee7;
+    --grey200:#d9e5fc;
+    --grey100:#f0f5ff;
+    --lightBlue:#225bc4;
+    --darkBlue:#052767;
+    --lightCoral:#ff8f66;
+    --darkCoral:#a3502f;
+    --lightIsabeline:#fef8f6;
+    --darkIsabeline:#d8c6c0;
+
+    /* font størrelser */
+    --h1FontSize: 48px;
+    --h2FontSize: 36px;
+    --h3FontSize: 24px;
+    --pFontSize: 18px;
+    --buttonFontSize: 16px;
+    --captionFontSize: 14px;
+    --higlightFontSize: 30px;
+    --titleFontSize: 20px;
+
+    /* spacers */
+    --marginLeftRight: 1.5rem;
 
     --smSpacer: 1rem;
     --mdSpacer: 2rem;
-    /* color: var(--accentColor); */
+    --lgSpacer: 3rem;
+    --TnSpacer: 0.5rem;
+
 }
