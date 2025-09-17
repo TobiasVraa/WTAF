@@ -109,3 +109,69 @@ position: sticky;
     padding-top: 40px;
     font-size: var(--h3FontSize);
 }
+.navBar a:hover{
+    text-decoration: underline var(--primaryColor) 3px;
+}
+/* opskriftCard */
+.opskriftCard{
+    box-shadow: 0px 4px 11px 0px var(--grey900);
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: var(--white);
+    margin-bottom: var(--mdSpacer);
+    max-width: fit-content;
+}
+.ratingOgTime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ratingOgTime p{
+    padding-top: var(--TnSpacer);
+    font-size: var(--pFontSize);
+    color: var(--grey600);
+}
+.chefInfo{
+    padding-top: var(--TnSpacer);
+}
+.chefCardInfo{
+    display: flex;
+    flex-direction: row;
+    gap: var(--smSpacer);
+    margin-top: var(--smSpacer);
+}
+.chefSlider>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chefSlider>figure{
+    display: flex;
+    justify-content: center;
+    gap: var(--smSpacer);
+}
+
+/* productcard */
+.productCard{
+
+    max-width: 20.825rem;
+    margin: 0;
+}
+.productCard h3{
+    font-size: var(--h3FontSize);
+    padding-top: var(--smSpacer);
+    padding-bottom: var(--TnSpacer);
+    margin: 0;
+}
+.productCard h3, p{
+    padding-left: var(--TnSpacer);
+}
+.productBeskrivelse{
+    color: var(--white);
+    background-color: var(--lightBlue);
+    margin: 0;
+}
+.productsSection{
+        display: flex;
+        justify-content: space-evenly;
+
+}
