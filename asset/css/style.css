@@ -92,7 +92,7 @@ body{
 
 /* nav styling */
 .navBar{
-box-shadow: 0px 4px 11px 0px var(--grey900);
+box-shadow: 0px 2px 4px 0px var(--grey900);
 padding: 1rem;
 position: sticky;
 background-color: var(--tritiaryColor);
@@ -101,11 +101,13 @@ background-color: var(--tritiaryColor);
 .navLogo{
     width: 100px;
     height: 100px;
+    padding-left: var(--mdSpacer);
 }
 .searchIcon{
     width: 48px;
     height: 48px;
     padding-top: 30px;
+    padding-right: var(--mdSpacer);
 
 }
 .navBar ul{
