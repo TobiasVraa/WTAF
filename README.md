@@ -1,17 +1,19 @@
 # html.css-template
 template
 
-jens laver:
-.review
-.tips
+emilia:
+lav footer færdig
+kode foodstories siden 
 
-Emilia laver:
-.chef
-.foodstories
 
-Tobias laver:
-.prøv også
-.product
+jens: 
+home færdig
+recipies måske færdig
+
+tobias:
+lav nyt design til nav (all times) på dansk alle tiders
+lav chefs færdig
+kode footer
 
 
 
