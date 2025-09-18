@@ -159,3 +159,40 @@ position: sticky;
 }
 
 
+/*Foodstory*/
+
+#foodstoryIntro{
+    display: flex;
+}
+
+#foodIntroBillede{
+    width: 700px;
+    margin: 50px 28px;
+}
+
+.smallprofil{
+   display: grid;
+   grid-template-columns: auto auto;
+   max-width: 240px;
+   align-items: center;
+   padding: 0 15px 20px;
+}
+
+.smallprofil img{
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 0 var(--grey900);
+    padding: 0;
+    grid-area: 1 / 1/ span 2;
+}
+
+#foodstoryIntroText{
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#foodstoryIntroText h2{
+    font-size: var(--h2FontSize);
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
