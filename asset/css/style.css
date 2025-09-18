@@ -291,6 +291,17 @@ margin-right: var(--lgSpacer);
 .chefInfo{
     padding-top: var(--TnSpacer);
 }
+
+.chefInfo a{
+    color: var(--grey900);
+    text-decoration: none;
+}
+
+.chefInfo p{
+    color: var(--primaryColor);
+    padding: 0;
+}
+
 .chefCardInfo{
     display: flex;
     flex-direction: row;
