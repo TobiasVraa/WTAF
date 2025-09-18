@@ -125,12 +125,13 @@ position: sticky;
     padding: 11px 15px 10px;
 }
 
-.foodStorieCard h3, p{
+.foodStorieCard h3{
     padding: 0px 15px 7px;
+    font-size: var(--h3FontSize);
 }
 
-.foodStorieCard h3{
-    font-size: var(--h3FontSize);
+.foodStorieCard p{
+    padding: 0px 15px 7px;
 }
 
 /*ops small profil*/
@@ -209,5 +210,38 @@ position: sticky;
 
 #foodstoryPartOne p{
     max-width: 90ch;
+    align-self: center;
+}
+
+#foodstoryPartTwo{
+    padding: 50px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodstoryPartTwoText p{
+    max-width: 70ch;
+    padding-bottom: 15px;
+}
+
+.foodstoryPartTwoRecipe{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondaryColor);
+    color: white;
+}
+
+.foodstoryPartTwoRecipe p{
+    max-width: 45ch;
+    padding: 10px 17.5px 20px;
+}
+
+.foodstoryPartTwoRecipe h3{
+    padding: 10px 10px;
+    text-decoration: underline;
+}
+
+.foodstoryPartTwoRecipe img{
+    width: 435px;
     align-self: center;
 }
