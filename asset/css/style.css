@@ -458,6 +458,7 @@ margin-right: var(--lgSpacer);
     margin-bottom: 0;
 }
 
+
 .trendingFoodstories h2{
     text-align: center;
     font-size: var(--h2FontSize);
@@ -472,9 +473,14 @@ margin-right: var(--lgSpacer);
     justify-content: space-evenly;
 }
 
+.trendingFoodstories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .trendingFoodstories button{
     margin-top: var(--mdSpacer);
-    display: flex;
-    justify-content: center;
+
 }
 
