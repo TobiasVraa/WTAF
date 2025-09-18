@@ -196,3 +196,18 @@ position: sticky;
     text-decoration: underline;
     padding-bottom: 20px;
 }
+
+#foodstoryPartOne{
+    display: flex;
+    flex-direction: column;
+}
+
+#foodstoryPartOne h3{
+    text-decoration: underline;
+    padding: 10px 28px;
+}
+
+#foodstoryPartOne p{
+    max-width: 90ch;
+    align-self: center;
+}
