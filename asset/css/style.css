@@ -269,10 +269,6 @@ margin-right: var(--lgSpacer);
     padding: 0;
 }
 
-
-
-
-
 /* opskriftCard */
 .opskriftCard{
     border: 1px solid var(--grey900);
@@ -336,3 +332,52 @@ margin-right: var(--lgSpacer);
         justify-content: space-evenly;
 
 }
+
+
+/*foodStorieCard*/
+
+.foodStorieCard{
+    width: 450px;
+    background-color: var(--tritiaryColor);
+    border-radius: 10px;
+}
+
+.foodStorieCard img{
+    width: 420px;
+    padding: 11px 15px 10px;
+}
+
+.foodStorieCard h3, p{
+    padding: 0px 15px 7px;
+}
+
+.foodStorieCard h3{
+    font-size: var(--h3FontSize);
+}
+
+/*ops small profil*/
+.smallprofilposter{
+   display: grid;
+   grid-template-columns: auto auto;
+   max-width: 240px;
+   align-items: center;
+   padding: 0 15px 20px;
+}
+.smallprofilposter img{
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 0 var(--grey900);
+    padding: 0;
+    grid-area: 1 / 1/ span 2;
+}
+
+.smallprofilposter p{
+    font-size: var(--pFontSize);
+    padding: 0;
+}
+
+.smallProfession{
+    color: var(--darkCoral);
+}
+
+
