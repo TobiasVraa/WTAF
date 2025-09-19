@@ -944,12 +944,20 @@ footer p{
 
 .foodstoryPartThree{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .foodstoryPartThree img{
-    width: 500px;
+    width: 686px;
+    height: 549px;
 }
 
 .foodstoryPartThree p{
-    max-width: 110ch;
+    max-width: 80ch;
+    padding: 0;
+}
+
+.foodstoryPartThree h3{
+    font-size: var(--h3FontSize);
+    font-weight: normal;
 }
