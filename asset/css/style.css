@@ -903,23 +903,22 @@ footer p{
 }
 
 #foodstoryPartOne p{
-    max-width: 90ch;
     align-self: center;
     font-size: var(--pFontSize);
     font-weight: normal;
+    line-height: 1.6;
 }
 
 #foodstoryPartTwo{
-    padding: 50px 28px;
     display: flex;
     justify-content: space-between;
 }
 
 .foodstoryPartTwoText p{
     max-width: 70ch;
-    padding-bottom: 15px;
     font-size: var(--pFontSize);
     margin: 0;
+    padding: 0;
 }
 
 .foodstoryPartTwoRecipe{
@@ -931,10 +930,19 @@ footer p{
 
 .foodstoryPartTwoRecipe p{
     max-width: 45ch;
+    font-size: var(--pFontSize);
+    margin-left: var(--smSpacer);
+    margin-right: var(--smSpacer);
+    line-height: 1.6;
+    padding-bottom: var(--smSpacer);
 }
 
 .foodstoryPartTwoRecipe h3{
     text-decoration: underline;
+    font-size: var(--h3FontSize);
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
 }
 
 .foodstoryPartTwoRecipe img{
