@@ -869,17 +869,23 @@ footer p{
     box-shadow: 2px 3px 3px 0 var(--grey900);
     padding: 0;
     grid-area: 1 / 1/ span 2;
+    margin-left: 0;
 }
 
 #foodstoryIntroText{
     flex-direction: column;
     margin-top: 50px;
 }
+#foodstoryIntroText p{
+    max-width: 70ch;
+    font-size: var(--pFontSize);
+}
 
 #foodstoryIntroText h2{
     font-size: var(--h2FontSize);
     text-decoration: underline;
     padding-bottom: 20px;
+    font-weight: normal;
 }
 
 #foodstoryPartOne{
@@ -889,12 +895,18 @@ footer p{
 
 #foodstoryPartOne h3{
     text-decoration: underline;
-    padding: 10px 28px;
+    font-size: var(--h3FontSize);
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
 }
 
 #foodstoryPartOne p{
     max-width: 90ch;
     align-self: center;
+    font-size: var(--pFontSize);
+    font-weight: normal;
 }
 
 #foodstoryPartTwo{
@@ -906,6 +918,8 @@ footer p{
 .foodstoryPartTwoText p{
     max-width: 70ch;
     padding-bottom: 15px;
+    font-size: var(--pFontSize);
+    margin: 0;
 }
 
 .foodstoryPartTwoRecipe{
@@ -917,11 +931,9 @@ footer p{
 
 .foodstoryPartTwoRecipe p{
     max-width: 45ch;
-    padding: 10px 17.5px 20px;
 }
 
 .foodstoryPartTwoRecipe h3{
-    padding: 10px 10px;
     text-decoration: underline;
 }
 
@@ -936,10 +948,8 @@ footer p{
 
 .foodstoryPartThree img{
     width: 500px;
-    padding: 10px 28px; ;
 }
 
 .foodstoryPartThree p{
-    padding: 15px 28px 0px;
     max-width: 110ch;
 }
