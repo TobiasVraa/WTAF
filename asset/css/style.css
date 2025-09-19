@@ -92,7 +92,7 @@ body{
 
 /* nav styling */
 .navBar{
-box-shadow: 0px 2px 4px 0px var(--grey900);
+box-shadow: 0px 2px 4px 0px var(--grey800);
 padding: 1rem;
 position: sticky;
 background-color: var(--tritiaryColor);
@@ -108,6 +108,7 @@ background-color: var(--tritiaryColor);
     height: 48px;
     padding-top: 30px;
     padding-right: var(--mdSpacer);
+    color: var(--lightIsabeline);
 
 }
 .navBar ul{
@@ -126,8 +127,18 @@ background-color: var(--tritiaryColor);
 }
 
 .navBar a:hover{
-    text-decoration: underline var(--primaryColor) 3px;
-    transition: ease-in-out 0.3s;
+    text-decoration: underline var(--grey900) 3px;
+    transition: ease-in-out 0.1s;
+}
+/* underline */
+.trendingFoodstories h3{
+    text-decoration: underline var(--grey900) 3px;
+    text-align: center;
+    font-size: var(--h3FontSize);
+    font-weight: normal;
+    margin-top: 0;
+    padding: 0;
+    
 }
 
 /* tip card styling */
@@ -546,4 +557,60 @@ margin-right: var(--lgSpacer);
 
 /* recipies page styling */
 
+
+/* om kokken styling */
+.omKokken{
+    display: flex;
+    flex-direction: row;
+    gap: var(--mdSpacer);
+    margin-bottom: var(--lgSpacer);
+}
+
+.infoOmKokken{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* footer */
+footer{
+    background-color: var(--tritiaryColor);
+    color: var(--grey900);
+    padding: var(--mdSpacer);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25rem;
+
+}
+
+.footerLinks a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--grey900);
+    text-decoration: none;
+    font-size: var(--pFontSize);
+}
+footer a:hover{
+    text-decoration: underline var(--primaryColor) 3px;
+}
+footer p{
+    font-size: var(--pFontSize);
+    display: flex;
+    justify-content: center;
+}
 
