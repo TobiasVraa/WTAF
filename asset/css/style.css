@@ -188,6 +188,9 @@ background-color: var(--tritiaryColor);
     margin: 0;
 }
 
+.tipContainer h2{
+    margin-bottom: 8px;
+}
 
 .tipContainer img{
     width: 287px;
@@ -560,11 +563,85 @@ margin-right: var(--lgSpacer);
 .recomendedChefContainer{
     display: flex;
     justify-content: center;
+    gap: var(--mdSpacer);
 }
 
 /* recipies page styling */
 
+.recipieTitle{
+    font-size: var(--h1FontSize);
+    text-align: center;
+    margin-top: 0;
+}
 
+.recipeInfo{
+    display: flex;
+}
+
+.recipieIcon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.chefCardContainer{
+    display: flex;
+    align-items: center;
+}
+
+.chefInfoRecipie a{
+    color: var(--grey900);
+    font-size: var(--h3FontSize);
+    text-decoration: none;
+    margin-left: var(--smSpacer);
+}
+
+.chefInfoRecipie p{
+    color: var(--primaryColor);
+    font-size: var(--titleFontSize);
+}
+
+.recipieIntro{
+    width: 80ch;
+    font-size: var(--pFontSize);
+}
+
+#recipieImg img{
+    width: 50vw;
+}
+
+.recipieResume{
+    margin-top: 4rem;
+}
+
+.recipeExecution{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipeExecution ul{
+    border: 1px solid var(--grey900);
+    list-style-type: none;
+    padding: var(--mdSpacer);
+}
+
+.recipeExecution ul li{
+    font-size: var(--pFontSize);
+    padding-bottom: 8px;
+}
+
+.recipeExecution ol li{
+    width: 70ch;
+    font-size: var(--pFontSize);
+    padding-bottom: 8px; 
+    margin-right: 50px;
+}
+
+.tipWrapper h3{
+    font-size: var(--h3FontSize);
+    text-align: center;
+    font-weight: normal;
+}
 /* om kokken styling */
 .omKokken{
     display: flex;
