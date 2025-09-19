@@ -423,12 +423,13 @@ margin-right: var(--lgSpacer);
     padding: 11px 15px 10px;
 }
 
-.foodStorieCard h3, p{
+.foodStorieCard h3{
     padding: 0px 15px 7px;
+    font-size: var(--h3FontSize);
 }
 
-.foodStorieCard h3{
-    font-size: var(--h3FontSize);
+.foodStorieCard p{
+    padding: 0px 15px 7px;
 }
 
 /*ops small profil*/
@@ -843,3 +844,102 @@ footer p{
     justify-content: center;
 }
 
+/*Foodstory*/
+
+#foodstoryIntro{
+    display: flex;
+}
+
+#foodIntroBillede{
+    width: 700px;
+    margin: 50px 28px;
+}
+
+.smallprofil{
+   display: grid;
+   grid-template-columns: auto auto;
+   max-width: 240px;
+   align-items: center;
+   padding: 0 15px 20px;
+}
+
+.smallprofil img{
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 0 var(--grey900);
+    padding: 0;
+    grid-area: 1 / 1/ span 2;
+}
+
+#foodstoryIntroText{
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#foodstoryIntroText h2{
+    font-size: var(--h2FontSize);
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+#foodstoryPartOne{
+    display: flex;
+    flex-direction: column;
+}
+
+#foodstoryPartOne h3{
+    text-decoration: underline;
+    padding: 10px 28px;
+}
+
+#foodstoryPartOne p{
+    max-width: 90ch;
+    align-self: center;
+}
+
+#foodstoryPartTwo{
+    padding: 50px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodstoryPartTwoText p{
+    max-width: 70ch;
+    padding-bottom: 15px;
+}
+
+.foodstoryPartTwoRecipe{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondaryColor);
+    color: white;
+}
+
+.foodstoryPartTwoRecipe p{
+    max-width: 45ch;
+    padding: 10px 17.5px 20px;
+}
+
+.foodstoryPartTwoRecipe h3{
+    padding: 10px 10px;
+    text-decoration: underline;
+}
+
+.foodstoryPartTwoRecipe img{
+    width: 435px;
+    align-self: center;
+}
+
+.foodstoryPartThree{
+    display: flex;
+}
+
+.foodstoryPartThree img{
+    width: 500px;
+    padding: 10px 28px; ;
+}
+
+.foodstoryPartThree p{
+    padding: 15px 28px 0px;
+    max-width: 110ch;
+}
