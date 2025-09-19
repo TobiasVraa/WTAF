@@ -208,6 +208,7 @@ background-color: var(--tritiaryColor);
 .multipleTips{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: var(--lgSpacer);
 }
 
 /* kommentar card styling */
@@ -349,6 +350,12 @@ margin-right: var(--lgSpacer);
     display: flex;
     justify-content: center;
     gap: var(--smSpacer);
+}
+.chefSlider{
+    background-color: var(--tritiaryColor);
+    padding-top: var(--mdSpacer);
+    padding-bottom: var(--smSpacer);
+    margin-bottom: var(--lgSpacer);
 }
 
 /* productcard */
@@ -562,6 +569,7 @@ margin-right: var(--lgSpacer);
 .omKokken{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     gap: var(--mdSpacer);
     margin-bottom: var(--lgSpacer);
 }
@@ -570,6 +578,64 @@ margin-right: var(--lgSpacer);
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 600px;
+}
+.infoOmKokken img{
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 0 var(--grey900);
+    margin-bottom: var(--mdSpacer);
+}
+.infoOmKokken h2{
+    font-size: var(--h2FontSize);
+    text-align: center;
+    font-weight: normal;
+}
+.infoOmKokken p{
+    font-size: var(--pFontSize);
+    text-align: center;
+    color: var(--grey800);
+    line-height: 1.5;
+    margin-left: var(--lgSpacer);
+    margin-right: var(--lgSpacer);
+}
+.infoOmKokken h3{
+    font-size: var(--h3FontSize);
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: var(--smSpacer);
+}
+.infoOmKokken a{
+    text-decoration: none;
+    color: var(--grey900);
+    font-size: var(--captionFontSize);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.orange{
+    color: var(--primaryColor);
+    text-decoration: underline var(--primaryColor) 2px;
+}
+
+.chefArbejdspladser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--lgSpacer);
+}
+.chefArbejdspladser a{
+    color: var(--grey500);
+    font-size: var(--pFontSize);
+    margin-bottom: var(--TnSpacer);
+
+}
+.chefArbejdspladser h3{
+    font-size: 19px;
+    text-decoration: underline var(--grey900) 2px;
+    color: var(--grey700);
+    margin-bottom: var(--TnSpacer);
 }
 
 /* footer */
