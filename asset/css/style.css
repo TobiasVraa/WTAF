@@ -635,6 +635,69 @@ margin-right: var(--lgSpacer);
     text-align: center;
     font-weight: normal;
 }
+
+.chefkommentarContainer h3{
+    text-align: center;
+    font-size: var(--h3FontSize);
+    font-weight: normal;
+}
+
+.chefkommentarContainer input{
+    width: 568px;
+    height: 64px;
+    border-radius: 10px;
+    border-color: var(--grey900);
+    font-size: var(--pFontSize);
+    margin-left: 10rem;
+}
+
+.shareKommentar{
+    display: flex;
+    flex-direction: column;
+}
+
+.shareKommentar h3{
+    font-size: var(--h3FontSize);
+    font-weight: normal;
+    color: var(--grey900);
+}
+
+.shareKommentar img{
+    width: 335px;
+    height: 64px;
+}
+
+.shareKommentar input{
+    width: 564px;
+    height: 194px;
+    border-radius: 10px;
+    border-color: var(--grey900);
+    font-size: var(--pFontSize);
+    margin-bottom: 8px;
+}
+
+.shareKommentar hr{
+    color: var(--grey900);
+    margin: 0;
+    margin-top: var(--mdSpacer);
+}
+
+.shareInputButton{
+    display: flex;
+}
+
+.shareInputButton button{
+    margin-left: 8px;
+    margin-top: 140px;
+}
+
+.kommentarPosts {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: var(--mdSpacer);
+    margin-bottom: var(--mdSpacer);
+}
+
 /* om kokken styling */
 .omKokken{
     display: flex;
