@@ -64,6 +64,7 @@ body{
     border-radius: 10px;
     font-size: var(--buttonFontSize);
     min-width: 141px;
+    
 }
 .primaryButton:hover{
     background-color: var(--lightCoral);
@@ -83,6 +84,14 @@ body{
     background-color: var(--secondaryColor);
     color: var(--white);
     transition: ease-in-out 0.1s;
+    cursor: pointer;
+}
+/* js Following knap */
+.secondaryButton.following {
+    color: var(--white);
+    background-color: var(--secondaryColor);
+    border: transparent;
+    text-decoration: underline var(--white) 2px;
 }
 .tertiaryButton{
     color: var(--white);
@@ -1003,3 +1012,4 @@ footer p{
     font-size: var(--h3FontSize);
     font-weight: normal;
 }
+
