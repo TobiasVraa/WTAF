@@ -13,8 +13,9 @@
                 //ændre class 
                 followBtn.classList.add("following");
             } else {
-                
+                //knapper beholder sin tekst
                 followBtn.textContent = "Follow";
+                //fjerner class
                 followBtn.classList.remove("following");
             }
         });
