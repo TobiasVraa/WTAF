@@ -146,14 +146,17 @@ background-color: var(--tritiaryColor);
     text-decoration: underline var(--primaryColor) 3px;
 }
 /* underline */
+.trendingFoodstories h2{
+    margin-bottom: var(--smSpacer);
+}
+
 .trendingFoodstories h3{
     text-decoration: underline var(--grey900) 3px;
     text-align: center;
     font-size: var(--h3FontSize);
     font-weight: normal;
     margin-top: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
 /* tip card styling */
@@ -382,6 +385,10 @@ margin-right: var(--lgSpacer);
     margin-bottom: var(--lgSpacer);
 }
 
+.chefSlider h3{
+    font-size: var(--h3FontSize);
+}
+
 /* productcard */
 .productCard{
 
@@ -396,6 +403,8 @@ margin-right: var(--lgSpacer);
 }
 .productCard h3, p{
     padding-left: var(--TnSpacer);
+    margin: 0;
+    padding-bottom: var(--smSpacer);
 }
 .productBeskrivelse{
     color: var(--white);
@@ -405,8 +414,7 @@ margin-right: var(--lgSpacer);
 .productsSection{
         display: flex;
         justify-content: space-evenly;
-        padding-bottom: 10rem;
-
+        margin-bottom: var(--lgSpacer);
 }
 
 
@@ -566,6 +574,7 @@ margin-right: var(--lgSpacer);
     height: 271px;
     justify-content: center;
     align-items: center;
+    margin-bottom: var(--lgSpacer);
 }
 
 .recomendChef a{
@@ -872,13 +881,21 @@ footer p{
     margin-left: 0;
 }
 
+.smallprofil p{
+    margin: 0;
+    font-size: var(--pFontSize);
+}
+
 #foodstoryIntroText{
     flex-direction: column;
     margin-top: 50px;
 }
+
 #foodstoryIntroText p{
     max-width: 70ch;
     font-size: var(--pFontSize);
+    margin-top: 0;
+    line-height: 1.6;
 }
 
 #foodstoryIntroText h2{
@@ -897,9 +914,9 @@ footer p{
     text-decoration: underline;
     font-size: var(--h3FontSize);
     font-weight: normal;
-    display: flex;
-    justify-content: center;
     margin-bottom: 0;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 #foodstoryPartOne p{
@@ -907,18 +924,26 @@ footer p{
     font-size: var(--pFontSize);
     font-weight: normal;
     line-height: 1.6;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 #foodstoryPartTwo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.foodstoryPartTwoText h3{
+    font-size: var(--h3FontSize);
 }
 
 .foodstoryPartTwoText p{
     max-width: 70ch;
     font-size: var(--pFontSize);
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    margin-bottom: var(--smSpacer);
 }
 
 .foodstoryPartTwoRecipe{
@@ -950,9 +975,16 @@ footer p{
     align-self: center;
 }
 
+.foodstoryPartTwoRecipe button{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: var(--mdSpacer);
+}
+
 .foodstoryPartThree{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: var(--lgSpacer);
 }
 
 .foodstoryPartThree img{
@@ -963,6 +995,8 @@ footer p{
 .foodstoryPartThree p{
     max-width: 80ch;
     padding: 0;
+    font-size: var(--pFontSize);
+    line-height: 1.6;
 }
 
 .foodstoryPartThree h3{
